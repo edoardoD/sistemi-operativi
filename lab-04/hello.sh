@@ -1,4 +1,7 @@
 #!/bin/bash
 
 
-echo "hello gys"
+for name in $@; do
+
+	echo "$name"
+done
